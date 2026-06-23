@@ -1,0 +1,38 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+*.tfstate
+*.tfstate.backup
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Variable files may contain secrets — commit only .example files
+*.tfvars
+!*.tfvars.example
+
+# Lambda build artifacts
+lambda/**/dist/
+lambda/**/__pycache__/
+lambda/**/*.pyc
+lambda/**/*.zip
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+.aws/
+*.env
+.env*
+
+**/.build/
+*.zip
