@@ -20,7 +20,6 @@ This project implements an end-to-end cloud security monitoring system on AWS. I
 - **Response orchestration:** AWS Step Functions
 - **Response actions:** AWS Lambda (Python 3.12)
 - **Notification:** AWS SNS
-- **CI/CD:** GitHub Actions
 
 ---
 
