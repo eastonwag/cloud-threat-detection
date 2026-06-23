@@ -10,13 +10,6 @@ This project implements an end-to-end cloud security monitoring system on AWS. I
 
 ---
 
-## Architecture
-
-> *(Add architecture diagram here after Phase 6)*
-
-See [`docs/architecture.md`](docs/architecture.md) for full data flow.
-
----
 
 ## Tech Stack
 
@@ -27,7 +20,6 @@ See [`docs/architecture.md`](docs/architecture.md) for full data flow.
 - **Response orchestration:** AWS Step Functions
 - **Response actions:** AWS Lambda (Python 3.12)
 - **Notification:** AWS SNS
-- **Visibility:** CloudWatch Dashboards
 - **CI/CD:** GitHub Actions
 
 ---
@@ -135,7 +127,6 @@ See [`docs/mitre-mapping.md`](docs/mitre-mapping.md) for the MITRE ATT&CK techni
 | Service | Cost |
 |---|---|
 | GuardDuty (after 30-day trial) | ~$1-3/day |
-| CloudTrail | ~$2 flat |
 | Step Functions | Negligible |
 | Lambda | Free tier |
 | **Total (2-week run)** | **~$20-45** |
