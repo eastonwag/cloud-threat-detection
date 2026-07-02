@@ -2,8 +2,6 @@
 
 Maps GuardDuty finding types handled by this project to MITRE ATT&CK tactics and techniques.
 
-Including this mapping in your portfolio signals that you understand the *why* behind the detections, not just the AWS configuration. Reference: https://attack.mitre.org
-
 ---
 
 ## EC2 Findings
@@ -51,16 +49,6 @@ Including this mapping in your portfolio signals that you understand the *why* b
 | `Stealth:S3/ServerAccessLoggingDisabled` | Defense Evasion | Impair Defenses: Disable Cloud Logs | T1562.008 | Notify + alert |
 
 ---
-
-## How to Use This Mapping
-
-### In your README
-Call out 2-3 specific examples when describing the detection layer. Example:
-
-> "When GuardDuty detects `Recon:EC2/Portscan` (MITRE T1046 — Network Service Discovery), EventBridge routes the finding to SNS for notification. When severity escalates to `UnauthorizedAccess:EC2/SSHBruteForce` (MITRE T1110 — Brute Force), the automated playbook isolates the instance immediately."
-
-### In interviews
-Be ready to explain: "Why did you automate a response to that finding specifically?" The MITRE mapping gives you a structured answer — you can describe the attack chain the finding represents and why fast containment matters at that stage.
 
 ### Extending this project
 For each new finding type you add response logic for:
