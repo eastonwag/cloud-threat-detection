@@ -159,9 +159,4 @@ This system provides automated threat detection and incident response for an AWS
 | Severity threshold of 7 for auto-response | Avoids noisy false-positive responses on LOW/MEDIUM findings |
 | Separate IAM role per Lambda | Blast radius limitation — a compromised Lambda can only act within its role |
 
----
 
-## Diagram
-
-> Create a visual diagram using Draw.io and export as `docs/architecture.png`.
-> Embed here: `![Architecture Diagram](./architecture.png)`
